@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.incomingOrders{
+    width: 800px;
+    padding-top: 50px;
+    align-items: center;
+    height: 700px;
+    background-color: #f00;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.specificOrder{
+    width: 400px;
+    height: 700px;
+    border-style: solid;
+
+}
+.orders{
+    width: 300px;
+    height: 125px;
+    background-color: yellow;
+}
