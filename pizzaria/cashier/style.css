@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.price{
+    width: 400px;
+    align-items: center;
+    height: 700px;
+    border-style: solid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.orderlist{
+    width: 800px;
+    height: 700px;
+    display: flex;
+    border-style: solid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.Pizza_margharita{
+    width: 250px;
+    height: 120px;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 45px;
+}
+.pizza_funghi{
+    width: 250px;
+    height: 120px;
+    background-color: rgb(42, 182, 135);
+    text-align: center;
+    padding-top: 45px;
+}
+.pizza_tuna{
+    width: 250px;
+    height: 120px;
+    background-color: rgb(45, 84, 121);
+    text-align: center;
+    padding-top: 45px;
+}
+.pizza_chicken{
+    width: 250px;
+    height: 120px;
+    background-color: rgb(223, 145, 27);
+    text-align: center;
+    padding-top: 45px;
+}
+.button{
+width: 100px;
+height: 100px;
+border-style: solid;
+border-color: black;
+
+}
